@@ -28,7 +28,7 @@ if (isset($_SESSION['id'])) {
             <p class="score">Total Points: <span><?php if (isset($_SESSION['score'])) { echo $_SESSION['score']; } ?></span></p>
             <div class="button-container">
                 <a href="question.php?n=1" class="button restart">Start Again</a>
-                <a href="home.php" class="button home">Go Home</a>
+                <a href="home.php" class="button home">Go home</a>
             </div>
         </div>
     </main>
